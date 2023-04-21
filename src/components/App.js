@@ -4,6 +4,7 @@ import Header from "./Header";
 import itemData from "../data/items";
 
 function App() {
+  // eslint-disable-next-line
   const [items, setItems] = useState(itemData);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
